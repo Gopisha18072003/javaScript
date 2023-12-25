@@ -32,4 +32,31 @@ const myFunction = function(){
 // Number => "Number"
 // String => "String"
 // Object => "object"
-console.log(myFunction); // "function"
+console.log(myFunction); // "[Function: myfuncton]"
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive), Heap ( Non Primitive)
+
+let myName = "Gopi"; // stored in stack
+let anotherName;
+anotherName = myName;
+console.log(anotherName); // Gopi
+
+anotherName = "Rahul";
+
+console.log(myName); // Gopi
+console.log(anotherName); // Rahul
+
+let userOne = {
+    userName : "Gopi@123",
+    email : "gopishaw111@gmail.com",
+    upid : "gopi@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.upid = "gopi@apl";
+console.log(userOne);
+console.log(userTwo);
