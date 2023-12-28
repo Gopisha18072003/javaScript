@@ -35,6 +35,8 @@ chai2()
 //     return num1 + num2
 // }
 
+// if {} is used then return keyword is necessary
+
 // const addTwo = (num1, num2) => num1 + num2
 
 const addTwo = (num1, num2) => (num1 + num2)
