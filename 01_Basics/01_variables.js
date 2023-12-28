@@ -17,3 +17,5 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
     beacuse of issue in block scope and 
     functional scope
 */
+let bigNum = 123456789211n
+console.log(typeof bigNum);
