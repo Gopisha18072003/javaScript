@@ -1,2 +1,2 @@
 # javaScript
-Learning and practicing javascript
+Notes
