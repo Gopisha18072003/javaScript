@@ -32,5 +32,5 @@ console.log(newDate.getDay()); // 1-7
 console.log(newDate.getTime());
 
 console.log(newDate.toLocaleString('default', {
-    weekday: 'long'
+    weekday: 'long',
 }));
